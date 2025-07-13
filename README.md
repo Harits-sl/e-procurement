@@ -63,15 +63,15 @@ php artisan serve
 **🔐 Authentication**
 Uses Laravel Sanctum for token-based API authentication.
 
-***User***
-POST /api/register – User registration
-POST /api/login – User login 
-Field name, email, password
+***User*** <br/>
+POST /api/register – User registration <br/>
+POST /api/login – User login  <br/>
+Field name, email, password <br/>
 
-***🏢 Vendor Registration***
-POST /api/vendors – Register as vendor
-Fields: vendor_name, address, contact
-
+***🏢 Vendor Registration*** <br/>
+POST /api/vendors – Register as vendor <br/>
+Fields: vendor_name, address, contact <br/>
+<br/>
 ***📦 Product Catalog (CRUD)***
 | Method | Endpoint           | Description                        |
 | ------ | ------------------ | ---------------------------------- |
@@ -80,4 +80,5 @@ Fields: vendor_name, address, contact
 | GET    | /api/products/{id} | Show product detail                |
 | PUT    | /api/products/{id} | Update product                     |
 | DELETE | /api/products/{id} | Delete product                     |
+
 Fields: vendor_id, product_name, description, price, stock, image
